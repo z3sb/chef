@@ -31,3 +31,18 @@
 .single__feature .feature__icon-four{
   background: #7865ff;
 }
+@media only screen and (max-width: 992px) {
+  .choose__content h2{
+    font-size: 1.5rem;
+  }
+  .choose__content h4{
+    font-size: 1rem;
+  }
+  .single__feature h6,
+  .choose__content p{
+    font-size: 0.8rem;
+  }
+  .single__feature p{
+    font-size: 0.6rem;
+  }
+}

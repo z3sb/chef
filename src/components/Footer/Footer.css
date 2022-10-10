@@ -22,3 +22,11 @@
   font-size: 0.9rem;
   margin: 0;
 }
+
+@media only screen and (max-width:992px) {
+  .link__item,
+  .logo p,
+  .footer__bottom p{
+    font-size: 0.8rem;
+  }
+}

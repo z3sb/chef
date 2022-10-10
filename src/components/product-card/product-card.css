@@ -3,6 +3,7 @@
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
+  animation: animate 1s ease-in;
 }
 .single__product:hover{
   box-shadow: 5px 5px 10px -5px #f5b70a;
@@ -40,8 +41,22 @@
   justify-content: center;
   cursor: pointer;
 }
-@media only screen and (max-width:992px) {
-  .single__product{
-    margin-bottom: 20px;
+@keyframes animate {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@media only screen and (max-width: 767px){
+  .product__content h6{
+    font-size: 0.9rem;
+  }
+  .price {
+    font-size: 0.8rem;
+  }
+  .price span{
+    font-size: 0.9rem;
   }
 }

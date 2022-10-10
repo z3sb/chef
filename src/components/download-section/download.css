@@ -45,17 +45,33 @@
   color: #0a071a;
 }
 @media only screen and (max-width: 992px) {
-  .app__btns{
-    flex-direction: column;
-    gap: 10px !important;
+  .app__img img{
+    width: 100%;
+  }
+  .app__content h5{
+    font-size: 1rem;
+  }
+  .app__content h2{
+    font-size: 1.5rem;
+  }
+  .app__content p{
+    font-size: 0.7rem;
+    line-height: 25px;
+  }
+  .btn__apple, 
+  .btn__google{
+    padding: 5px 20px !important;
+    font-size: 0.8rem;
+  }
+  .app__content{
+    margin-bottom: 50px;
   }
 }
 @media only screen and (max-width: 767px){
-  .app__content{
-    margin-top: 50px;
+  .app__img{
+    margin-bottom: 0;
   }
-  .app__btns{
-    flex-direction: row;
-    margin-bottom: 30px;
+  .app__content{
+    padding: 20px 30px 20px;
   }
 }
