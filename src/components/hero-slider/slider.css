@@ -1,0 +1,30 @@
+.btn{
+  padding: 7px 25px;
+  border-radius: 5px;
+  background: #f76e11;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: 30px;
+}
+.btn:hover{
+  color: #f76e11;
+}
+.slider__content,
+.slider__img{
+  width: 50%;
+}
+@media only screen and (max-width: 992px) {
+  .slider__wrapper{
+    flex-direction: column;
+  }
+  .slick-arrow{
+    display: none !important;
+  }
+  .slider__content{
+    order: 2;
+  }
+  .slider__content,
+  .slider__img{
+    width: 100%;
+  }
+}
