@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chef/static/css/main.280fa8fc.css",
-    "main.js": "/chef/static/js/main.67e14229.js",
+    "main.css": "/chef/static/css/main.8669fee1.css",
+    "main.js": "/chef/static/js/main.d2fb2160.js",
     "static/media/remixicon.svg?t=1590207869815": "/chef/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/remixicon.eot?t=1590207869815": "/chef/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/chef/static/media/remixicon.f2616f597cf98f38d234.ttf",
@@ -23,11 +23,11 @@
     "static/media/slick.ttf": "/chef/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/chef/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/chef/index.html",
-    "main.280fa8fc.css.map": "/chef/static/css/main.280fa8fc.css.map",
-    "main.67e14229.js.map": "/chef/static/js/main.67e14229.js.map"
+    "main.8669fee1.css.map": "/chef/static/css/main.8669fee1.css.map",
+    "main.d2fb2160.js.map": "/chef/static/js/main.d2fb2160.js.map"
   },
   "entrypoints": [
-    "static/css/main.280fa8fc.css",
-    "static/js/main.67e14229.js"
+    "static/css/main.8669fee1.css",
+    "static/js/main.d2fb2160.js"
   ]
 }
