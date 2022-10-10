@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import ChooseUs from '../components/choose-us/ChooseUs';
+import Download from '../components/download-section/Download';
 import Header from '../components/Header/Header';
 import HeroSlider from '../components/hero-slider/HeroSlider';
 import MenuPack from '../components/menu-pack/MenuPack';
@@ -15,6 +16,7 @@ const Home = () => {
       <ChooseUs />
       <MenuPack />
       <Testimonial />
+      <Download />
     </Fragment>
   )
 }
