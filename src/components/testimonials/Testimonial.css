@@ -1,0 +1,18 @@
+.slider__content,
+.slider__img{
+  width: 50%;
+}
+.single__testimonial h6{
+  color: #f5b70a;
+  font-size: 1.1rem;
+}
+.single__testimonial p{
+  font-size: 0.8rem;
+  color: #fff;
+}
+@media only screen and (max-width:767px) {
+  .slider__content,
+  .slider__img{
+    width: 100%;
+  }
+}
